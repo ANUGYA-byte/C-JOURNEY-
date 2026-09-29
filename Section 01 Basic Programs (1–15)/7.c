@@ -8,7 +8,7 @@ int main(){
     int a,b,c;
     printf("Enter a and b");
     scanf("%d%d" &a , &b);
-    c=a%b;
+    c=a+b;
     printf("Remainder-%d",c); 
     return 0;
 }
